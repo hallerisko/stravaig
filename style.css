@@ -1,0 +1,111 @@
+a {
+  font-family: ingra, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  color: #000000;
+  padding: 10px 17px 10px 12px;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+nav {
+  width: 100%;
+  text-align: right;
+}
+
+h1 {
+  color: #ADBF6E;
+  font-family: contralto-big, sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin: 8px;
+}
+
+h2 {
+  color: #709595;
+  font-family: ingra, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+main {
+}
+
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.19791666666666663) 100%
+    ),
+    url(https://cdn.glitch.me/af00c6b5-d3f6-4d86-a602-cafa7c4e2090%2FKilt-Rock-new-2.jpg?v=1636590980119);
+  background-size: cover;
+  background-position: center 30%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+img {
+  width: 650px;
+  display: block;
+  margin: 40px auto 0px;
+  border: 10px solid rgba(81, 79, 80, 0.9);
+}
+
+p {
+  font-family: ingra, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background: rgba(81, 79, 80, 0.9);
+  margin: 60px 80px;
+  padding: 30px;
+}
+
+.special {
+  color: #ADBF6E;
+  font-family: contralto-big, sans-serif;
+  font-style: italic;
+}
+
+.title {
+  color: #ADBF6E;
+  font-family: contralto-big, sans-serif;
+  font-style: italic;
+  font-size: 65px;
+}
+
+.home main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media queries */
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  main {
+    height: calc(100vh - 334px);
+    overflow-y: scroll;
+  }
+
+  body {
+    overflow-y: hidden;
+  }
+}
